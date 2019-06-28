@@ -12,5 +12,5 @@ public class Item {
 	private String name;
 	private Integer number;
 	//Ìí¼Ó×¢ÊÍ
-	1111111111
+	//1111111111
 }
