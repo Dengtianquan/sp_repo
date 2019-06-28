@@ -40,7 +40,7 @@ public class ItemController {
 		List<Item> items = itemService.getItems(orderId);
 		return JsonResult.ok(items).msg("port="+port);
 	}
-	
+	//111111111
 	@PostMapping("/decreaseNumber")
 	public JsonResult decreaseNumber(@RequestBody List<Item> items) {
 		itemService.decreaseNumbers(items);
